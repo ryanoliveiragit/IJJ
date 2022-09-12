@@ -17,3 +17,7 @@ export const Main = styled.main `
         margin-top: 2%;
     }
 ` 
+export const Content = styled.div `
+    margin-top: -1%;
+    background-color: #282828;
+`
