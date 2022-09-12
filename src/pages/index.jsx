@@ -36,7 +36,7 @@ function index() {
                   .start();
               }}
             />
-            <Buttons>Jogue Junto</Buttons>
+            <Buttons>Seja TRIPPER</Buttons>
           </div>
         </Main>
       </Layout>
