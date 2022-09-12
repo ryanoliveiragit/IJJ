@@ -35,7 +35,7 @@ export const Content = styled.div `
     }
 `
 export const MadeWith = styled.div `
-    background-color: orange;
+    background-color: #FCD700;
     .footer-copy {
         justify-content: center;
         display: flex;
