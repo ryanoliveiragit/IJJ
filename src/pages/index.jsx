@@ -19,17 +19,18 @@ function index() {
       <Layout>
         <Main>
           <div>
+            <h2>AQUI A GENTE</h2>
             <Typewriter
               options={{
-                strings: ['AQUI A GENTE', 'JOGA JUNTO'],
+                strings: ['APRENDE JUNTO', 'CRESCE JUNTO', 'JOGA JUNTO',],
                 autoStart: true,
                 loop: true,
               }}
               onInit={(typewriter) => {
-                typewriter.typeString("AQUI A GENTE JOGA JUNTO")
+                typewriter.typeString("")
                   .callFunction(() => {
                   })
-                  .pauseFor(2500)
+                  .pauseFor(1500)
                   .deleteAll()
                   .callFunction(() => {
                   })
