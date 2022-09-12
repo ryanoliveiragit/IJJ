@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 const ContainerHeader = styled.header `
-    color: white;
+    color: black;
     flex-direction: row;
-    background-color: #131313;
+    background-color: transparent;
     .navigation {
         display: flex;
         align-items: center;
@@ -22,7 +22,7 @@ const ContainerHeader = styled.header `
     }
 
     .list>li {
-        font-size: 0.85rem;
+        font-size: 0.9rem;
         margin-left: 1em;
         margin-right: 1em;
     }
