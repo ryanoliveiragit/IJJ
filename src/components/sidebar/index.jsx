@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Content } from './styles'
 import Image from 'next/image'
-import JogaJuntoLogo from "../../assets/JogaJunto.png"
+import JogaJuntoLogo from "../../assets/JogaJuntoDark.png"
 import Buttons from '../buttons/styles'
 
 const Sidebar = ({ active }) => {
@@ -30,6 +30,7 @@ const Sidebar = ({ active }) => {
                         <li>Quem somos nós</li>
                         <li>Transparencia</li>
                         <li>Contato</li>
+                        <li><Buttons>Jogue Junto</Buttons></li>
                     </ul>
                 </nav>
             </Content>

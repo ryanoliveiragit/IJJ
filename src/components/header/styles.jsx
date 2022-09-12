@@ -22,7 +22,7 @@ const ContainerHeader = styled.header `
     }
 
     .list>li {
-        font-size: 0.9rem;
+        font-size: 1rem;
         margin-left: 1em;
         margin-right: 1em;
     }
@@ -32,7 +32,7 @@ const ContainerHeader = styled.header `
     }
     li:hover {
         transition: .4s;
-        color: #FCD700;
+        color: #4d4d4d;
     }
     @media only screen and (max-width: 1330px) {
         .amburger {
@@ -61,6 +61,13 @@ const ContainerHeader = styled.header `
             margin-right: 0em;
             margin-top: 6em;
         }
+    }
+    @media only screen and (max-width: 1500px) {
+        .list>li {
+        font-size: 0.8rem;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
     }
 `
 

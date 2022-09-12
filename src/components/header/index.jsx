@@ -6,7 +6,7 @@ import React,
     from 'react'
 
 import Image from 'next/image'
-import JogaJuntoLogo from "../../assets/JogaJunto.png"
+import JogaJuntoLogo from "../../assets/JogaJuntoDark.png"
 import ContainerHeader from './styles'
 import Buttons from '../buttons/styles'
 import Sidebar from '../sidebar'

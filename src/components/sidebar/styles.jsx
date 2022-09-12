@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  background-color: #0f0f0f;
+  background-color: #FAD711;
   position: fixed;
   z-index: 2;
   height: 100%;
@@ -22,16 +22,15 @@ export const Container = styled.div`
   .sideBarNavigation {
     align-items: center;
     text-align: center;
-    height: 70%;
+    height: 50%;
   }
   .sidebar{
-    height: 80vh;
     font-family: 'Roboto', sans-serif;
   }
   .sidebar>li {
     cursor: pointer;
     list-style: none;
-    margin-top: 3%;
+    margin-top: 2%;
   }
   @keyframes showSidebar {
     from {
