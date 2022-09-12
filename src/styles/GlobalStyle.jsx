@@ -7,7 +7,14 @@ const GlobalStyle = createGlobalStyle` //Styled global App
 }
 
 body {
-    background-color: #FCD700;
+    background-color:#FAD711;
+    font: 400 14px Roboto, sans-serif;
+}
+:root {
+    --bgCollor: #FAD711;
+    --primary: #FAD711;
+    --text: #282828;
+    --subTitle: #929292;
 }
 @font-face {
   font-family: "Roboto";

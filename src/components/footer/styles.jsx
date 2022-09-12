@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FooterStyled = styled.footer`
-    margin-top: 25%;
+    margin-top: 20%;
   color: white;
   background-color: #131313;
   display: flex;
@@ -32,6 +32,12 @@ export const Content = styled.div `
         width: 10vw;
         list-style: none;
         margin-bottom: 1em;
+        cursor: pointer;
+        transition: .4s;
+    }
+    li:hover {
+      transition: .4s;
+      color: #FCD700;
     }
 `
 export const MadeWith = styled.div `

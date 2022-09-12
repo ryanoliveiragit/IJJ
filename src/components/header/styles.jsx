@@ -32,7 +32,7 @@ const ContainerHeader = styled.header `
     }
     li:hover {
         transition: .4s;
-        color: #FCD700;
+        color: #4d4d4d;
     }
     @media only screen and (max-width: 1330px) {
         .amburger {

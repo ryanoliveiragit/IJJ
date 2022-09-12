@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 const Buttons = styled.button`
-  background-color: #131313;
+  background: #282828;
   color: white;
   border: none;
-  border-radius: 30px;
-  width: 9vw;
-  padding: 5% 5%;
+  border-radius: 20px;
+  width: 8vw;
+  height: 4vh;
   cursor: pointer;
   font-size: 0.9rem;
 `;
