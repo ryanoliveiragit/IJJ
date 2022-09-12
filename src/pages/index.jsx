@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React,
 {
   Fragment
@@ -9,6 +10,8 @@ import GlobalStyle from '../styles/GlobalStyle'
 import Buttons from '../components/buttons/styles'
 import { Main } from '../styles/pages'
 import Typewriter from 'typewriter-effect';
+import { Content } from '../styles/pages'
+import Contador from '../components/count'
 
 //Home
 function index() {
@@ -41,6 +44,17 @@ function index() {
           </div>
         </Main>
       </Layout>
+      <img src="/assets/wave.svg" alt="wave" />
+      <Content>
+        <Layout>
+          <Contador />
+          <h1>.</h1>
+          <h1>.</h1>
+          <h1>.</h1>
+          <h1>.</h1>
+          <h1>.</h1>
+        </Layout>
+      </Content>
       <Footer />
     </Fragment>
   )

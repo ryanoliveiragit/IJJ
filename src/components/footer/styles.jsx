@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const FooterStyled = styled.footer`
-    margin-top: 20%;
   color: white;
   background-color: #131313;
   display: flex;
