@@ -28,13 +28,14 @@ function Header() {
                             alt="JogajuntoImage"
                         />
                         <ul className='list'>
-                            <li>A Alquimia</li>
-                            <li>Quem Joga Junto</li>
-                            <li>Quem somos</li>
-                            <li>Nossas Fórmulas</li>
-                            <li>Transparência</li>
-                            <li>Mutant</li>
-                            <li><Buttons>Fale conosco</Buttons></li>
+                            <li>Home</li>
+                            <li>TRIP</li>
+                            <li>Nossas Trilhas</li>
+                            <li>Para empresas</li>
+                            <li>Quem somos nós</li>
+                            <li>Transparencia</li>
+                            <li>Contato</li>
+                            <li><Buttons>Jogue Junto</Buttons></li>
                         </ul>
                         <button
                             className='amburger'
@@ -42,8 +43,8 @@ function Header() {
                         </button>
                         {sidebar &&
                             <Sidebar
-                            active={setSidebar}
-                        />}
+                                active={setSidebar}
+                            />}
                     </nav>
                 </Layout>
             </ContainerHeader>

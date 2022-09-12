@@ -23,13 +23,13 @@ const Sidebar = ({ active }) => {
                         alt="JogajuntoImage"
                     />
                     <ul className="sidebar">
-                        <li>A Alquimia</li>
-                        <li>Quem Joga Junto</li>
-                        <li>Quem somos</li>
-                        <li>Nossas Fórmulas</li>
-                        <li>Transparência</li>
-                        <li>Mutant</li>
-                        <li>Fale conosco</li>
+                        <li>Home</li>
+                        <li>TRIP</li>
+                        <li>Nossas Trilhas</li>
+                        <li>Para empresas</li>
+                        <li>Quem somos nós</li>
+                        <li>Transparencia</li>
+                        <li>Contato</li>
                     </ul>
                 </nav>
             </Content>
