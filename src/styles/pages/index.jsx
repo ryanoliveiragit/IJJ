@@ -9,7 +9,7 @@ export const Main = styled.main `
         width: 100%;
         margin-top: 5%;
         margin-top: 1%;
-        font-size: 4rem;
+        font-size: calc(1.5rem + 2vw); //responsive text
         font-weight: 600;
         font-family: 'Roboto', sans-serif;
     }
