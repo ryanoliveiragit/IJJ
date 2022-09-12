@@ -3,6 +3,7 @@ import styled from "styled-components";
 const ContainerHeader = styled.header `
     color: white;
     flex-direction: row;
+    background-color: #131313;
     .navigation {
         display: flex;
         align-items: center;

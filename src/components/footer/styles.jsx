@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 export const FooterStyled = styled.footer`
-    margin-top: 50%;
+    margin-top: 25%;
   color: white;
+  background-color: #131313;
   display: flex;
   flex-direction: row;
   padding: 1%;

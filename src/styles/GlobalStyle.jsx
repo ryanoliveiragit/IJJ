@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle` //Styled global App
 }
 
 body {
-    background-color: #161616;
+    background-color: #fafafa;
 }
 @font-face {
   font-family: "Roboto";

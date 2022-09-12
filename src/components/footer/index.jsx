@@ -32,7 +32,6 @@ const Footer = () => {
                 <li>Mutant</li>
               </ul>
             </Content>
-
             <Content>
               <h1>Também estamos aqui</h1>
               <span>Sociais</span>
