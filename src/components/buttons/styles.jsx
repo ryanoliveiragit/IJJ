@@ -1,11 +1,14 @@
 import styled from "styled-components";
 
 const Buttons = styled.button`
-  background-color: white;
-  color: black;
-  font-size: 14px;
-  padding: 8px 40px;
+  background-color: transparent;
+  color: orange;
+  border: 1px solid orange;
+  border-radius: 30px;
+  width: 9vw;
+  padding: 5% 5%;
   cursor: pointer;
+  font-size: 0.8rem;
 `;
 
 export default Buttons;

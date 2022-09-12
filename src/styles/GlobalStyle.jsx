@@ -1,14 +1,13 @@
-import {createGlobalStyle} from 'styled-components'
+import { createGlobalStyle } from 'styled-components'
 
-
-const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle` //Styled global App
 * {
     margin: 0;
     box-sizing: border-box; //faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura.
 }
 
 body {
-    background-color: white;
+    background-color: #161616;
 }
 @font-face {
   font-family: "Roboto";

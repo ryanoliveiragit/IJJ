@@ -1,35 +1,66 @@
 import styled from "styled-components";
 
-const Container = styled.header `
-    background-color: #080808;
+const ContainerHeader = styled.header `
     color: white;
-    padding: 1.7% 4%;
-    nav {
+    flex-direction: row;
+    .navigation {
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    ul {
+    .list {
         text-align: center;
         justify-content: center;
         display: flex;
         align-items: center;
         list-style: none;
-    }
-    li {
         cursor: pointer;
         font-family: 'Roboto', sans-serif;
-        font-size: 0.9rem;
         font-weight: 400;
         transition: .4s;
+    }
+
+    .list>li {
+        font-size: 0.85rem;
         margin-left: 1em;
-        margin-right: 2em;
+        margin-right: 1em;
+    }
+
+    .amburger {
+        display: none;
     }
     li:hover {
         transition: .4s;
         color: #fcb900;
     }
-    
+    @media only screen and (max-width: 1330px) {
+        .amburger {
+            display: block;
+        }
+        .list {
+            display: none;
+            width: 100%;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 0%!important;
+            margin: 0%!important;
+        }
+        .navitation {
+            align-items: center;
+            justify-items: center;
+            align-items: flex-start;
+            padding: 2%;
+            text-align: center;
+            display: flex;
+        }
+        li {
+            margin-left: 0em;
+            margin-right: 0em;
+            margin-top: 6em;
+        }
+    }
 `
 
-export default Container;
+export default ContainerHeader;

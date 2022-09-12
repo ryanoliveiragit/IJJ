@@ -1,3 +1,5 @@
+//Script para poder usar o Styled Components
+
 import Document, { DocumentContext } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 

@@ -1,16 +1,13 @@
 import React, { Fragment } from 'react'
 import Header from '../components/header'
-import dynamic from 'next/dynamic'
+import Footer from '../components/footer'
 
-const VideoPlay = dynamic(() => import('../components/videos/index'), {
-  ssr: false,
-})
-
+//Home
 function index() {
   return (
     <Fragment>
       <Header />
-        <VideoPlay />
+      <Footer />
     </Fragment>
   )
 }
