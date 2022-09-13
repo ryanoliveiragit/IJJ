@@ -11,9 +11,9 @@ export const Container = styled.div `
     }
     p {
         color: white;
-        font-size: calc(.5rem + 1.8vw);
+        font-size: calc(.3rem + 1.5vw);
     }
     span {
-        font-size: calc(3.5rem + 1.8vw); //responsive text
+        font-size: calc(1.5rem + 1.5vw); //responsive text
     }
 `
