@@ -12,11 +12,13 @@ import { Main } from '../styles/pages'
 import Typewriter from 'typewriter-effect';
 import { Content } from '../styles/pages'
 import Contador from '../components/count'
+import Page from '../components/SEO/page'
 
 //Home
 function index() {
   return (
     <Fragment>
+      <Page title="JogaJunto" description="JogaJunto" path="/">
       <GlobalStyle />
       <Header />
       <Layout>
@@ -48,14 +50,10 @@ function index() {
       <Content>
         <Layout>
           <Contador />
-          <h1>.</h1>
-          <h1>.</h1>
-          <h1>.</h1>
-          <h1>.</h1>
-          <h1>.</h1>
         </Layout>
       </Content>
       <Footer />
+      </Page>
     </Fragment>
   )
 }
