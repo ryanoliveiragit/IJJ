@@ -6,11 +6,11 @@ export const Container = styled.div `
     justify-content: center;
     text-align: center;
     div {
-        color: #FAD711;
+        color: var(--Primary);
         width: 100%;
     }
     p {
-        color: white;
+        color: var(--White);
         font-size: calc(.3rem + 1.5vw);
     }
     span {

@@ -6,9 +6,9 @@ import SEO from '../components/SEO/next-seo-config'
 function MyApp({ Component, pageProps }) {
   return (
     <Fragment> {/* Retornar múltiplos elementos */}
-    <DefaultSeo {...SEO} />
-    <GlobalStyle />
-      <Component {...pageProps} />
+    <DefaultSeo {...SEO} /> {/*SEO*/}
+    <GlobalStyle /> {/* Retornar styles global */}
+      <Component {...pageProps} /> {/* Components */}
     </Fragment>
   )
 }

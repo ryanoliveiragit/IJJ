@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const FooterStyled = styled.footer`
   color: white;
-  background-color: #131313;
+  background-color: var(--Black);
   display: flex;
   flex-direction: row;
   padding: 1%;
@@ -36,11 +36,11 @@ export const Content = styled.div `
     }
     li:hover {
       transition: .4s;
-      color: #FCD700;
+      color: var(--Primary);
     }
 `
 export const MadeWith = styled.div `
-    background-color: #FCD700;
+    background-color: var(--Primary);
     .footer-copy {
         justify-content: center;
         display: flex;
@@ -60,7 +60,7 @@ export const MadeWith = styled.div `
     font-size: 0.76rem;
     margin-left: 8%;
     margin-right: 8%;
-    color: #161616c8;
+    color: var(--Black);
     text-decoration: none;
   }
 `

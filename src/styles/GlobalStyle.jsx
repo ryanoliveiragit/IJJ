@@ -1,6 +1,15 @@
 import { createGlobalStyle } from 'styled-components'
 
+
 const GlobalStyle = createGlobalStyle` //Styled global App
+:root {
+    --Primary: #FAD711;
+    --Secondary: #282828;
+    --Black: #131313;
+    --text: #282828;
+    --subTitle: #929292;
+    --White: #fff;
+}
 * {
     margin: 0;
     box-sizing: border-box; //faz com que o navegador não calcule a dimensão de um elemento somando bordas e margens com altura e largura.
@@ -9,7 +18,7 @@ const GlobalStyle = createGlobalStyle` //Styled global App
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: #FAD711 #ffffff;
+    scrollbar-color: var(--Primary);
   }
 
   /* Chrome, Edge, and Safari */
@@ -26,14 +35,8 @@ const GlobalStyle = createGlobalStyle` //Styled global App
     border: 1px solid #282828;
   }
 body {
-    background-color: #FAD711;
+    background-color: var(--Primary);
     font: 400 14px Roboto, sans-serif;
-}
-:root {
-    --bgCollor: #FAD711;
-    --primary: #282828;
-    --text: #282828;
-    --subTitle: #929292;
 }
 @font-face {
   font-family: "Roboto";

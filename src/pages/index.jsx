@@ -9,50 +9,38 @@ import Layout from '../components/layout'
 import GlobalStyle from '../styles/GlobalStyle'
 import Buttons from '../components/buttons/styles'
 import { Main } from '../styles/pages'
-import Typewriter from 'typewriter-effect';
 import { Content } from '../styles/pages'
 import Contador from '../components/count'
 import Page from '../components/SEO/page'
+import TypewriterNext from '../components/Typewriter'
+import Title from '../components/Title'
 
 //Home
 function index() {
   return (
     <Fragment>
       <Page title="JogaJunto" description="JogaJunto" path="/">
-      <GlobalStyle />
-      <Header />
-      <Layout>
-        <Main>
-          <div>
-            <h2>AQUI A GENTE</h2>
-            <Typewriter
-              options={{
-                strings: ['APRENDE JUNTO', 'CRESCE JUNTO', 'JOGA JUNTO',],
-                autoStart: true,
-                loop: true,
-              }}
-              onInit={(typewriter) => {
-                typewriter.typeString("")
-                  .callFunction(() => {
-                  })
-                  .pauseFor(1500)
-                  .deleteAll()
-                  .callFunction(() => {
-                  })
-                  .start();
-              }}
-            />
-            <Buttons>Seja TRIPPER</Buttons>
-          </div>
-        </Main>
-      </Layout>
-      <img src="/assets/wave.svg" alt="wave" />
-      <Content>
-        <Layout>
-          <Contador />
+        <GlobalStyle /> {/* Style Global */}
+        <Header /> {/* Header */}
+        <Layout> {/* Container */}
+          <Main> {/* Main */}
+            <div>
+              <Title
+                text="AQUI A GENTE"
+                color="Black"
+              /> {/* Title */}
+              <TypewriterNext /> {/* Textwriter */}
+              <Buttons>Seja TRIPPER</Buttons> {/* Button */}
+            </div>
+          </Main>
         </Layout>
-      </Content>
-      <Footer />
+        <img src="/assets/wave.svg" alt="wave" /> {/* Wave */}
+        <Content>
+          <Layout>
+            <Contador /> {/* Count */}
+          </Layout>
+        </Content>
+        <Footer /> {/* Footer */}
       </Page>
     </Fragment>
   )

@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Buttons = styled.button`
-  background-color: black;
-  color: #ffffff;
+  background-color: var(--Black);
+  color: var(--White);
   border: 1px solid orange;
   border-radius: 30px;
   width: 150px;
